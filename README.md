@@ -16,6 +16,6 @@
   after that, just press ctrl+r in your discord
   
 ## Customization
-  Check ```theme.scss``` file, all used variables are there (except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file.
+  Check ```theme.scss``` file, all used variables are there (except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file)
 
 ### Happy new year @everyone!

@@ -1,0 +1,99 @@
+	//Hey-hey! It's me CCrashtek (Да#4103)! you can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
+
+	//also I wrote notes only for light theme just because да
+
+	//and some colors (connection background and connection settings, "playing" colors and some more) I didn't linked, so you need to change them manually (ofc if you need to)
+
+@use "custom.scss";
+@use "main.css";
+@import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
+
+.theme-dark {
+    --background-tertiary: #3e2334;
+    --background-secondary: #3e2334;
+    --background-secondary-alt: #3e2334;
+    --background-primary: #3e2334;
+    --background-modifier-accent: none;
+    --background-modifier-hover: #301c29;
+    --background-modifier-active: #2e1a27;
+    --background-modifier-selected: #2e1927;
+    --background-accent: #d36fb0;
+    --header-primary: #fff;
+    --header-secondary: #eee;
+    --text-normal: #e9e9e9;
+    --channeltextarea-background: #2e1927;
+    --deprecated-card-bg: #20131c;
+    --background-floating: #3e2334;
+    --deprecated-quickswitcher-input-background:#1f0f19;
+    --scrollbar-auto-thumb: #21121c;
+    --scrollbar-auto-track: #none;
+    --scrollbar-thin-thumb: #none;
+    --elevation-low: none;
+    --smallpopoutcolor2: #3e2334;
+    --spotify-color: #ff12ac;
+    --user-buttons-color: #ff12ac;
+    --chat-buttons: #ff12ac;
+    --text-link: #ff12ac;
+    --CircleIconButton: #ff12ac;
+    --DiscordDMButtonBG: #3e2334;
+    --DiscordDMButtonActive: #fff;
+    --elevation-low: none;
+    --CircleIconButtonBG: #3e2334;
+}
+
+.theme-light {
+    --background-tertiary: #eedde8;
+    --background-secondary: #eedde8;
+    --background-secondary-alt: #eedde8;
+    --background-primary: #eedde8;
+    --background-modifier-accent: none;
+    --background-floating: #eedde8;
+	//color of scrollbar
+    --scrollbar-auto-thumb: #ff9cdd;
+	//background of scrollbar
+    --scrollbar-auto-track: none;
+	//idk what is this please contact me if you know what is this thing does
+    --scrollbar-thin-thumb: none;
+    --elevation-low: none;
+    --header-primary: #000;
+    --header-secondary: #1f1d1e;
+    --text-normal: #2e2b2b;
+	//I found two variables in "main.css" file, so I added two of them idk what the first does please contact me (this var does nothing cause I set "border" to none, just remember that)
+    --smallpopoutcolor1: #fff;
+    --user-background: #d1b8c8;
+    --smallpopoutcolor2: #d1b8c8;
+    --spotify-color: #ff12ac;
+    --user-buttons-color: #ff12ac;
+    --chat-buttons: #ff12ac;
+    --channeltextarea-background: #fff;
+    --text-link: #ff12ac;
+    --CircleIconButton: #ff12ac;
+    --DiscordDMButtonBG: #eedde8;
+    --DiscordDMButtonActive: #fff;
+    --CircleIconButtonBG: #eedde8;
+}
+
+:root{
+
+	//((for Nyria) I think it's better to leave it here with other variables I added)
+
+    // User settings spacing
+    --user-buttons-spacing: 10px;
+
+    // Circles next to role names
+    --role-circle: 7px; // Set it to "0px" if u don't want circles
+
+    // Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png)
+    --tooltips: block; // Set it to "none" if u don't want it
+
+    // Separators
+    --separators: none; // Set it to "block" if u want it
+
+    // Discord logo
+    --discord-logo: none; // Set it to "block" if u want it
+
+}
+
+	//have a great day @everyone, и помните что мать вовчика шлюха просто да
+
+	//oh I forgot to mention that it still need improvements cuz I DON'T KNOW ANY LANGUAGE and I'm coding so dirty that I forgot to put brackets sometimes, so if you have any ideas how to improve please contact me (Да#4103), goodbye!

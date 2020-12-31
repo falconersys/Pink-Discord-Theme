@@ -1,8 +1,4 @@
-	//Hey-hey! It's me CCrashtek (Да#4103)! you can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
-
-	//also I wrote notes only for light theme just because да
-
-	//and some colors (connection background and connection settings, "playing" colors and some more) I didn't linked, so you need to change them manually (ofc if you need to)
+	//Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
 
 @use "custom.scss";
 @use "main.css";
@@ -21,6 +17,7 @@
     --header-primary: #fff;
     --header-secondary: #eee;
     --text-normal: #e9e9e9;
+    --settings-buttons-text: #fff;
     --channeltextarea-background: #2e1927;
     --deprecated-card-bg: #20131c;
     --background-floating: #3e2334;
@@ -29,6 +26,7 @@
     --scrollbar-auto-track: #none;
     --scrollbar-thin-thumb: #none;
     --elevation-low: none;
+    --smallpopoutcolor1: #fff;
     --smallpopoutcolor2: #3e2334;
     --spotify-color: #ff12ac;
     --user-buttons-color: #ff12ac;
@@ -58,10 +56,11 @@
     --header-primary: #000;
     --header-secondary: #1f1d1e;
     --text-normal: #2e2b2b;
+    --settings-buttons-text: #fff;
 	//I found two variables in "main.css" file, so I added two of them idk what the first does please contact me (this var does nothing cause I set "border" to none, just remember that)
     --smallpopoutcolor1: #fff;
-    --user-background: #d1b8c8;
     --smallpopoutcolor2: #d1b8c8;
+    --user-background: #d1b8c8;
     --spotify-color: #ff12ac;
     --user-buttons-color: #ff12ac;
     --chat-buttons: #ff12ac;
@@ -75,25 +74,27 @@
 
 :root{
 
-	//((for Nyria) I think it's better to leave it here with other variables I added)
+    //I don't really understand what this thing does but make sure it's dark enough.
+    --SmallPopoutColorBG: #281521;
 
-    // User settings spacing
-    --user-buttons-spacing: 10px;
+    //playing activity, shadow px parameters is for shadow offset from left to right, offset from up to down  and blur, same thing with all other shadow parameters
+    --playactbg: #e354b1;
+    --playactshadow: 0px 4px 0px #9b467d;
 
-    // Circles next to role names
-    --role-circle: 7px; // Set it to "0px" if u don't want circles
+    //spotify activity
+    --spotifyactbg: #cc3b92;
+    --spotifyactshadow: 0px 4px 0px #92115e;
 
-    // Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png)
-    --tooltips: block; // Set it to "none" if u don't want it
-
-    // Separators
-    --separators: none; // Set it to "block" if u want it
-
-    // Discord logo
-    --discord-logo: none; // Set it to "block" if u want it
+    //streaming activity
+    --streamactbg: #723dcc;
+    --streamactshadow: 0px 4px 0px #50367d;
+    
+    //xbox activity
+    --xboxactbg: #107C10;
+    --streamactshadow: 0px 4px 0px #095509;
 
 }
 
-	//have a great day @everyone, и помните что мать вовчика шлюха просто да
+    //Happy new year @everyone!
 
-	//oh I forgot to mention that it still need improvements cuz I DON'T KNOW ANY LANGUAGE and I'm coding so dirty that I forgot to put brackets sometimes, so if you have any ideas how to improve please contact me (Да#4103), goodbye!
+    //oh I forgot to mention that it still need improvements cuz idk css and I'm coding so dirty that I forgot to put brackets sometimes, so if you have any ideas how to improve please contact me (Да#4103), goodbye!

@@ -23,4 +23,19 @@
     .powercord-spotify.hover .spotify-seek-bar { height: 63px; }
     .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
 
+    // User settings spacing
+    --user-buttons-spacing: 10px;
+
+    // Circles next to role names
+    --role-circle: 8px; // Set it to "0px" if u don't want circles
+
+    // Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png)
+    --tooltips: block; // Set it to "none" if u don't want it
+
+    // Separators
+    --separators: none; // Set it to "block" if u want it
+
+    // Discord logo
+    --discord-logo: none; // Set it to "block" if u want it
+
 } // thx snapperito and Harley for the help :3

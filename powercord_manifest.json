@@ -1,9 +1,9 @@
 {
-    "name": "Comfy theme",
-    "description": "A simple customisable comfy theme",
-    "version": "1.2.0",
+    "name": "Comfy theme Pink",
+    "description": "Very-very pink comfy theme",
+    "version": "1.0",
     "author": "Nyria#0001",
-    "theme": "theme.scss",
+    "theme": "ctp.scss",
     "consent": "false",
     "license": "MIT"
 }

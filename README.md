@@ -8,7 +8,7 @@
 ![dt](https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/1dt.png)
 ![lt](https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/1lt.png)
 
-## Installation
+## Installation (only powercord)
   Open command prompt or whatever, and copy&paste the following command:
   ```
   cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/Comfy-theme-pink
@@ -19,3 +19,4 @@
   Check ```theme.scss``` file, all used variables are there (except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file)
 
 ### Happy new year @everyone!
+  I will make betterdiscord later, so don't worry

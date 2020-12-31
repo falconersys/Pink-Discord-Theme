@@ -1,0 +1,33 @@
+@use "custom.scss";
+@import "https://nyri4.github.io/Comfy-theme/src/main.css";
+@import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
+
+.theme-dark {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #6E85D3;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+    --elevation-low: none;
+}
+
+.theme-light {
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+    --scrollbar-thin-thumb: #141925;
+}

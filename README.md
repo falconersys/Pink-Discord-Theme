@@ -1,4 +1,4 @@
-![CTP](https://imgur.com/a/aKNhoXO)
+!(https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/comfy-theme-pink.png)
 
 # Hey-hey!
   CTP is fully customizable theme, if you want to help me and improve this theme please contact me (Да#4103). If you need help please contact me (Да#4103) or author of original theme (Nyria#3863)

@@ -1,10 +1,56 @@
-	//Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
+/**
+ * @name Comfy-theme-pink
+ * @author Nyria#0001
+ * @description Very-very pink comfy theme
+ * @version 1.0
+ */
 
-@use "custom.scss";
-@use "main.css";
-@import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
+ @use "main.css";
+ @import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
 
-.theme-dark {
+ :root { 
+ 
+    // -- Addons --
+
+    // BetterAvatar Popout
+
+    --popout-status-icon: none; // Set it to "block" if u want to have the status icon in big popouts
+    --popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts
+    --avatar-radius: 50%; // Change the roundness of avatar in big popouts, u need to disable the mask to use this
+
+    // Colored emoji picker
+    --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
+
+    // BetterSpotify --> Delete all until "Others settings" if u don't want it
+    .powercord-spotify .spotify-seek-bar {
+        position: absolute;
+        bottom: 0px;
+        width: 240px;
+        height: 55px;
+        -webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);
+        mask-image: linear-gradient(0.25turn, #0009, #0003);
+    }
+    .powercord-spotify.hover .spotify-seek-bar { height: 63px; }
+    .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
+
+    // User settings spacing
+    --user-buttons-spacing: 10px;
+
+    // Circles next to role names
+    --role-circle: 8px; // Set it to "0px" if u don't want circles
+
+    // Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png)
+    --tooltips: block; // Set it to "none" if u don't want it
+
+    // Separators
+    --separators: none; // Set it to "block" if u want it
+
+    // Discord logo
+    --discord-logo: none; // Set it to "block" if u want it
+
+ } /* thx snapperito and Harley for the help :3 */
+ 
+ .theme-dark {
     --background-tertiary: #3e2334;
     --background-secondary: #3e2334;
     --background-secondary-alt: #3e2334;
@@ -37,38 +83,26 @@
     --DiscordDMButtonActive: #fff;
     --elevation-low: none;
     --CircleIconButtonBG: #3e2334;
-}
-
-.theme-light {
+ }
+ 
+ .theme-light {
     --background-tertiary: #eedde8;
     --background-secondary: #eedde8;
     --background-secondary-alt: #eedde8;
     --background-primary: #eedde8;
     --background-modifier-accent: none;
     --background-floating: #eedde8;
-
-    //color of ctrl+k
     --deprecated-quickswitcher-input-background: #1f0f19;
-
-    //color of scrollbar
     --scrollbar-auto-thumb: #ff9cdd;
-
-    //background of scrollbar
     --scrollbar-auto-track: none;
-
-    //idk what is this please contact me if you know what is this thing does
     --scrollbar-thin-thumb: none;
-
     --elevation-low: none;
     --header-primary: #000;
     --header-secondary: #1f1d1e;
     --text-normal: #2e2b2b;
     --settings-buttons-text: #fff;
-
-    //I found two variables in "main.css" file, so I added two of them idk what the first does please contact me (this var does nothing cause I set "border" to none, just remember that)
     --smallpopoutcolor1: #fff;
     --smallpopoutcolor2: #d1b8c8;
-
     --user-background: #d1b8c8;
     --spotify-color: #ff12ac;
     --user-buttons-color: #ff12ac;
@@ -79,9 +113,9 @@
     --DiscordDMButtonBG: #eedde8;
     --DiscordDMButtonActive: #fff;
     --CircleIconButtonBG: #eedde8;
-}
+ }
 
-:root{
+ :root{
 
     //I don't really understand what this thing does but make sure it's dark enough.
     --SmallPopoutColorBG: #281521;
@@ -102,8 +136,4 @@
     --xboxactbg: #107C10;
     --streamactshadow: 0px 4px 0px #095509;
 
-}
-
-    //Happy new year @everyone!
-
-    //oh I forgot to mention that it still need improvements cuz idk css and I'm coding so dirty that I forgot to put brackets sometimes, so if you have any ideas how to improve please contact me (Да#4103), goodbye!
+ }

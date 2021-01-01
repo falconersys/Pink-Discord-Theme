@@ -3,7 +3,8 @@
 # Hey-hey!
   [Original theme](https://github.com/NYRI4/Comfy-theme)
 
-  CTP is fully customizable theme, if you want to help me and improve this theme please contact me (Да#4103). If you need help please contact me (Да#4103) or author of original theme (Nyria#3863)
+  CTP is fully customizable theme, if you want to help me and improve this ~~theme~~ color scheme please contact me (Да#4103). If you need help please contact me (Да#4103)
+  (the raw version for BD is ready, I don't know if it will work)
 
 ## Screenshots:
 
@@ -18,7 +19,8 @@
   after that, just press ctrl+r in your discord
   
 ## Customization
-  Check ```theme.scss``` file, all used variables are there (except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file)
+  Check ```ctp.scss``` file, all used variables are there ~~(except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file)~~
 
 ### Happy new year @everyone!
-  I will make betterdiscord later, so don't worry
+
+  (the raw version for BD is ready, idk is it working or not)

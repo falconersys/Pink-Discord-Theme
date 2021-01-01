@@ -1,4 +1,4 @@
-![CTP](https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/comfy-theme-pink.png)
+![CTP](https://i.imgur.com/wPS1TMD.png)
 
 # Hey-hey!
   [Original theme](https://github.com/NYRI4/Comfy-theme)

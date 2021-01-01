@@ -4,12 +4,11 @@
   [Original theme](https://github.com/NYRI4/Comfy-theme)
 
   CTP is fully customizable theme, if you want to help me and improve this ~~theme~~ color scheme please contact me (Да#4103). If you need help please contact me (Да#4103)
-  (the raw version for BD is ready, I don't know if it will work)
 
 ## Screenshots:
 
-![dt](https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/1dt.png)
-![lt](https://github.com/ccrashtek/Comfy-theme-pink/blob/main/preview/1lt.png)
+![dt](https://i.imgur.com/PPujOOh.png)
+![lt](https://i.imgur.com/HDel2qm.png)
 
 ## Installation (only powercord)
   Open command prompt or whatever, and copy&paste the following command:
@@ -23,4 +22,4 @@
 
 ### Happy new year @everyone!
 
-  (the raw version for BD is ready, idk is it working or not)
+ (the raw version for BD is ready, idk is it working or not)

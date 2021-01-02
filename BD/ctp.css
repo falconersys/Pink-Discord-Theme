@@ -5,7 +5,7 @@
  * @version 1.0
  */
 
- @import "https://raw.githubusercontent.com/ccrashtek/Comfy-theme-pink/main/main.css";
+ @use "mainBD.css";
 
  :root { 
  
@@ -13,9 +13,9 @@
  
      /* BetterAvatar Popout */
  
-     --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
+     --popout-status-icon: block; /* Set it to "block" if u want to have the status icon in big popouts */
      --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
-     --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+     --avatar-radius: 50%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
  
      /* Colored emoji picker */
      --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
@@ -47,16 +47,16 @@
 :root { 
 
      /* User settings color (Mute, Deafen and settings) */
-    --user-buttons-color: #096dc0;
+    --user-buttons-color: #ff12ac;
 
     /* User settings spacing */
     --user-buttons-spacing: 10px;
 
     /* Chat buttons color */
-    --chat-buttons: #6E85D3;
+    --chat-buttons: #ff12ac;
  
      /* Circles next to role names */
-     --role-circle: 7px; /* Set it to "0px" if u don't want circles */
+     --role-circle: 8px; /* Set it to "0px" if u don't want circles */
  
      /* Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png) */
      --tooltips: block; /* Set it to "none" if u don't want it */

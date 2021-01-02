@@ -1,4 +1,4 @@
-	//Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need any help you can contact me (Да#4103).
+	//Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
 
 @use "custom.scss";
 @use "main.css";
@@ -14,6 +14,7 @@
     --background-modifier-active: #2e1a27;
     --background-modifier-selected: #2e1927;
     --background-accent: #d36fb0;
+    --deprecated-quickswitcher-input-background: #1f0f19;
     --header-primary: #fff;
     --header-secondary: #eee;
     --text-normal: #e9e9e9;
@@ -21,7 +22,6 @@
     --channeltextarea-background: #2e1927;
     --deprecated-card-bg: #20131c;
     --background-floating: #3e2334;
-    --deprecated-quickswitcher-input-background: #1f0f19;
     --scrollbar-auto-thumb: #21121c;
     --scrollbar-auto-track: #none;
     --scrollbar-thin-thumb: #none;
@@ -48,26 +48,28 @@
     --background-floating: #eedde8;
 
     //color of ctrl+k
-    --deprecated-quickswitcher-input-background: #1f0f19;
+    --deprecated-quickswitcher-input-background: #fff;
 
     //color of scrollbar
-    --scrollbar-auto-thumb: #ff9cdd;
+    --scrollbar-auto-thumb: #fff;
 
     //background of scrollbar
     --scrollbar-auto-track: none;
 
-    //idk what is this please contact me if you know what is this thing does
+    //color of scrollbar in settings
     --scrollbar-thin-thumb: none;
 
-    --elevation-low: none;
+    --elevation-low: none; 
     --header-primary: #000;
     --header-secondary: #1f1d1e;
     --text-normal: #2e2b2b;
     --settings-buttons-text: #fff;
 
-    //I found two variables in "main.css" file, so I added two of them idk what the first does please contact me (this var does nothing cause I set "border" to none, just remember that)
+    //color of "message @name" background
     --smallpopoutcolor1: #fff;
-    --smallpopoutcolor2: #d1b8c8;
+
+    //background behind the main information
+    --smallpopoutcolor2: #c48db1;
 
     --user-background: #d1b8c8;
     --spotify-color: #ff12ac;
@@ -79,6 +81,9 @@
     --DiscordDMButtonBG: #eedde8;
     --DiscordDMButtonActive: #fff;
     --CircleIconButtonBG: #eedde8;
+
+    //I MUST CHANGE IT
+    //--abonnements-color: #ff0000;
 }
 
 :root{

@@ -1,10 +1,16 @@
-.circleIconButton-jET_ig { color: var(--CircleIconButton) !important;}
+/*add a server&explore public servers color*/
 
-.circleIconButton-jET_ig { background-color: var(--CircleIconButtonBG) !important;} 
+.circleIconButton-jET_ig { color: var(--CircleIconButton) !important;
+    background-color: var(--CircleIconButtonBG) !important;
+}
 
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--DiscordDMButtonBG) !important;}
+/*DM button color*/
 
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { color: var(--DiscordDMButtonActive) !important;}
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--DiscordDMButtonBG) !important;
+    color: var(--DiscordDMButtonActive) !important;
+}
+
+/*call background*/
 
 .video-1FfuMD.minimum-1pRSEN {background-color: var(--background-floating) !important;}
 
@@ -228,7 +234,7 @@
 .expandedInfo-3kfShd { background: var(--background-secondary) !important; }
 
 /* Abonnements */
-.detailsBlock-FoDTGA > div > div > .colorPrimary-3b3xI6 { background: #da72b6 !important; }
+.detailsBlock-FoDTGA > div > div > .colorPrimary-3b3xI6 { background: var(--abonnements-color) !important; }
 
 /* Voix & Vidéo */
 .previewOverlayInner-1WXURq { background: var(--background-secondary-alt) !important; }
@@ -381,10 +387,13 @@
     opacity:1;
     pointer-events:none;
     background: var(--user-background) center/cover no-repeat;
-    -webkit-mask: linear-gradient(black, transparent 100%);
-    mask: linear-gradient(#000, transparent);
+    -webkit-mask: none;
+    mask: none;
   }
-  
+
+  /*linear-gradient(black, transparent 100%)*/
+  /*linear-gradient(#000, transparent)*/
+
   .headerInfo-30uryT,
   .tabBarItem-1b8RUP,
   .activity-1ythUs {

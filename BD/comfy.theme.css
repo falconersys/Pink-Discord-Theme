@@ -1,11 +1,11 @@
 /**
- * @name Comfy-theme-pink
+ * @name Comfy-theme
  * @author Nyria#0001
- * @description Very-very pink comfy theme
- * @version 1.0
+ * @description A simple customisable comfy theme
+ * @version 1.0.0
  */
 
- @use "mainBD.css";
+ @import "https://nyri4.github.io/Comfy-theme/BetterDiscord/main.css";
 
  :root { 
  

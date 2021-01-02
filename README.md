@@ -3,7 +3,7 @@
 # Hey-hey!
   [Original theme](https://github.com/NYRI4/Comfy-theme)
 
-CTP is fully customizable theme, if you want to help me and improve this ~~theme~~ color scheme please contact me (Да#4103). If you need help please contact me (Да#4103)
+CTP is fully customizable theme, if you want to help me and improve this ~~theme~~ color scheme please contact me (Да#4103). If you need any help you can contact me (Да#4103)
 
 ## Screenshots:
 

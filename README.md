@@ -3,7 +3,7 @@
 # Hey-hey!
   [Original theme](https://github.com/NYRI4/Comfy-theme)
 
-CTP is fully customizable theme, if you want to help me and improve this ~~theme~~ color scheme please contact me (Да#4103). If you need any help you can contact me (Да#4103)
+CTP is fully customizable color scheme, if you want to help me and improve this color scheme please contact me (Да#4103).
 
 ## Screenshots:
 
@@ -18,6 +18,6 @@ cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/Comf
 after that, just press ctrl+r in your discord
   
 ## Customization
-Check ```ctp.scss``` file, all used variables are there ~~(except of "playing" big&small popout status and connection colors, you can change it in ```main.css``` file)~~
+Check ```ctp.scss``` file, all used variables are there, you can change additional settings (such as spotify integration settings, button spacing, and visibility of elements), which you can find in ```_custom.scss``` file
 
 ### Happy new year @everyone!

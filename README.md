@@ -23,4 +23,4 @@ Check ```ctp.scss``` file, all used variables are there, you can change addition
 ### Happy new year @everyone!
 
 
-![Vibe](https://youtu.be/_ygcbrBRMLY)
+[Vibe](https://youtu.be/_ygcbrBRMLY)

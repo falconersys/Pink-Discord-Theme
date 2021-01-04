@@ -12,9 +12,9 @@ CTP is fully customizable color scheme, if you want to help me and improve this 
 
 ## Installation (only powercord)
 Open command prompt or whatever, and copy&paste the following command:
-  ```
+```
 cd powercord/src/Powercord/themes && git clone https://github.com/ccrashtek/Comfy-theme-pink
-  ```
+```
 after that, just press ctrl+r in your discord
   
 ## Customization

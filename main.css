@@ -1,13 +1,26 @@
+/*tooltip color*/
+#app-mount .tooltip-3oByQd,
+#app-mount .tooltip-1_vJJI,
+.tooltipBlack-PPG47z,
+.tooltipGrey-1hnvTt {
+	background-color: var(--background-floating) !important;
+	color: var(--header-primary) !important;
+}
+
+.text-2sI5Sd {
+	color: var(--header-primary) !important;
+}
+
 /*add a server&explore public servers color*/
 
-.circleIconButton-jET_ig { color: var(--CircleIconButton) !important;
-    background-color: var(--CircleIconButtonBG) !important;
+.circleIconButton-jET_ig { color: var(--user-buttons-color) !important;
+    background-color: var(--background-tertiary) !important;
 }
 
 /*DM button color*/
 
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--DiscordDMButtonBG) !important;
-    color: var(--DiscordDMButtonActive) !important;
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--background-tertiary) !important;
+    color: var(--settings-buttons-text) !important;
 }
 
 /*call background*/
@@ -357,11 +370,11 @@
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
-	background: var(--smallpopoutcolor2);
+	background: var(--user-background);
 }
 
 .protip-YaFfgO { display: none;}
-.footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz { border:  none; background: var(--smallpopoutcolor1);}
+.footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz { border:  none; background: var(--user-background);}
 
 .userPopout-3XzG_A  .header-2BwW8b,
 .userPopout-3XzG_A  .scroller-2FKFPG,
@@ -387,11 +400,11 @@
     opacity:1;
     pointer-events:none;
     background: var(--user-background) center/cover no-repeat;
-    -webkit-mask: none;
-    mask: none;
+    -webkit-mask: linear-gradient(black, transparent 90%);
+    mask: linear-gradient(#000, transparent);
   }
 
-  /*linear-gradient(black, transparent 100%)*/
+  /*linear-gradient(black, transparent 90%)*/
   /*linear-gradient(#000, transparent)*/
 
   .headerInfo-30uryT,

@@ -9,7 +9,6 @@
     --background-secondary: #3e2334;
     --background-secondary-alt: #3e2334;
     --background-primary: #3e2334;
-    --background-modifier-accent: none;
     --background-modifier-hover: #301c29;
     --background-modifier-active: #2e1a27;
     --background-modifier-selected: #2e1927;
@@ -23,20 +22,11 @@
     --deprecated-card-bg: #20131c;
     --background-floating: #3e2334;
     --scrollbar-auto-thumb: #21121c;
-    --scrollbar-auto-track: #none;
-    --scrollbar-thin-thumb: #none;
-    --elevation-low: none;
-    --smallpopoutcolor1: #fff;
-    --smallpopoutcolor2: #3e2334;
+    --user-background: #3e2334;
     --spotify-color: #ff12ac;
     --user-buttons-color: #ff12ac;
     --chat-buttons: #ff12ac;
     --text-link: #ff12ac;
-    --CircleIconButton: #ff12ac;
-    --DiscordDMButtonBG: #3e2334;
-    --DiscordDMButtonActive: #fff;
-    --elevation-low: none;
-    --CircleIconButtonBG: #3e2334;
 }
 
 .theme-light {
@@ -53,43 +43,23 @@
     //color of scrollbar
     --scrollbar-auto-thumb: #fff;
 
-    //background of scrollbar
-    --scrollbar-auto-track: none;
-
-    //color of scrollbar in settings
-    --scrollbar-thin-thumb: none;
-
     --elevation-low: none; 
     --header-primary: #000;
     --header-secondary: #1f1d1e;
     --text-normal: #2e2b2b;
     --settings-buttons-text: #fff;
-
-    //color of "message @name" background
-    --smallpopoutcolor1: #fff;
-
-    //background behind the main information
-    --smallpopoutcolor2: #c48db1;
-
-    --user-background: #d1b8c8;
+    --user-background: #eedde8;
     --spotify-color: #ff12ac;
     --user-buttons-color: #ff12ac;
     --chat-buttons: #ff12ac;
     --channeltextarea-background: #fff;
     --text-link: #ff12ac;
-    --CircleIconButton: #ff12ac;
-    --DiscordDMButtonBG: #eedde8;
-    --DiscordDMButtonActive: #fff;
-    --CircleIconButtonBG: #eedde8;
 
     //I MUST CHANGE IT
     //--abonnements-color: #ff0000;
 }
 
 :root{
-
-    //I don't really understand what this thing does but make sure it's dark enough.
-    --SmallPopoutColorBG: #281521;
 
     //playing activity, shadow px parameters is for shadow offset from left to right, offset from up to down  and blur, same thing with all other shadow parameters
     --playactbg: #e354b1;
@@ -106,6 +76,11 @@
     //xbox activity
     --xboxactbg: #107C10;
     --streamactshadow: 0px 4px 0px #095509;
+
+    --scrollbar-auto-track: #none;
+    --scrollbar-thin-thumb: #none;
+    --background-modifier-accent: none;
+    --elevation-low: none;
 
 }
 

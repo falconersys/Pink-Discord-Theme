@@ -1,14 +1,14 @@
-![CTP](https://i.imgur.com/J0nrBr1.png)
+![CTP](https://i.imgur.com/9Xp1BDp.png)
 
 # Hey-hey!
-  [Original theme](https://github.com/NYRI4/Comfy-theme)
+[Original theme](https://github.com/NYRI4/Comfy-theme)
 
-CTP is fully customizable color scheme, if you want to help me and improve this color scheme please contact me (Да#4103).
+CTP is fully customizable color scheme, if you want to help me and improve this color scheme please contact me (Да#4103)
 
 ## Screenshots:
 
-![dt](https://i.imgur.com/a7cVkzr.png)
-![lt](https://i.imgur.com/vXeL0Uc.png)
+![dt](https://i.imgur.com/tmibDOi.png)
+![lt](https://i.imgur.com/uH3cpmL.png)
 
 ## Installation (only powercord)
 Open command prompt or whatever, and copy&paste the following command:
@@ -21,3 +21,6 @@ after that, just press ctrl+r in your discord
 Check ```ctp.scss``` file, all used variables are there, you can change additional settings (such as spotify integration settings, button spacing, and visibility of elements), which you can find in ```_custom.scss``` file
 
 ### Happy new year @everyone!
+
+
+####![:black_heart:](https://youtu.be/_ygcbrBRMLY)

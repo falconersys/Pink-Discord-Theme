@@ -9,9 +9,11 @@
     --avatar-radius: 50%; // Change the roundness of avatar in big popouts, u need to disable the mask to use this
 
     // Colored emoji picker
-    --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
+    --colored-emoji: hue-rotate(var(--emoji-hue)) saturate(var(--emoji-saturation))
+; // Change the value to "100%" if u want the basic one
 
     // BetterSpotify --> Delete all until "Others settings" if u don't want it
+    .powercord-spotify .spotify-seek-bar-progress { background-color: var(--spotify-color) !important;}
     .powercord-spotify .spotify-seek-bar {
         position: absolute;
         bottom: 0px;

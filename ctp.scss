@@ -61,6 +61,9 @@
 
 :root{
 
+    --emoji-hue: 270deg;
+    --emoji-saturation: 1.5;
+
     //playing activity, shadow px parameters is for shadow offset from left to right, offset from up to down  and blur, same thing with all other shadow parameters
     --playactbg: #e354b1;
     --playactshadow: 0px 4px 0px #9b467d;
@@ -75,12 +78,13 @@
     
     //xbox activity
     --xboxactbg: #107C10;
-    --streamactshadow: 0px 4px 0px #095509;
+    --xboxactshadow: 0px 4px 0px #095509;
 
     --scrollbar-auto-track: #none;
     --scrollbar-thin-thumb: #none;
     --background-modifier-accent: none;
     --elevation-low: none;
+
 
 }
 

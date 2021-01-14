@@ -1,30 +1,38 @@
 /*tooltip color*/
-#app-mount .tooltip-3oByQd,
-#app-mount .tooltip-1_vJJI,
+.tooltip-3oByQd,
+.tooltip-1_vJJI,
 .tooltipBlack-PPG47z,
-.tooltipGrey-1hnvTt {
-	background-color: var(--background-floating) !important;
-	color: var(--header-primary) !important;
-}
+.tooltipGrey-1hnvTt {background-color: var(--background-floating) !important; color: var(--header-primary) !important;}
 
-.text-2sI5Sd {
-	color: var(--header-primary) !important;
-}
+/*I forgot what is this*/
+.childWrapper-anI2G9{color: var(--settings-buttons-text) !important;}
+
+/*game Icon on sidebar*/
+.gameIconWrapper-1YByCI {position: fixed; bottom: 150px; left: 20px;}
+
+/*it removes Video/Screen buttons, game info, game "actions" button, set to "flex" to enable*/
+.actions-aUdUfC,
+.info-WdNIDE,
+.actionButtons-14eAc_{display: none !important;}
+
+/*it gives "Voice Connected" color*/
+.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {color: var(--chat-buttons) !important;}
+.rtcConnectionStatusConnected-VRZDjy {color: var(--chat-buttons) !important;}
+
+/*voice active border color*/
+.border-Jn5IOt.speaking-B2MXPi {box-shadow: inset 0 0 0 1px var(--chat-buttons),inset 0 0 0 4px var(--background-floating) !important;}
+
+
+/*I forgot what is this*/
+.text-2sI5Sd {color: var(--header-primary) !important;}
 
 /*add a server&explore public servers color*/
-
-.circleIconButton-jET_ig { color: var(--user-buttons-color) !important;
-    background-color: var(--background-tertiary) !important;
-}
+.circleIconButton-jET_ig { color: var(--user-buttons-color) !important; background-color: var(--background-tertiary) !important;}
 
 /*DM button color*/
-
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--background-tertiary) !important;
-    color: var(--settings-buttons-text) !important;
-}
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--background-tertiary) !important; color: var(--settings-buttons-text) !important;}
 
 /*call background*/
-
 .video-1FfuMD.minimum-1pRSEN {background-color: var(--background-floating) !important;}
 
 /* --- 😀 PARTIE MP --- */
@@ -103,7 +111,9 @@
 
 /* Menu # ou @ */
 .autocomplete-1vrmpx { background: var(--background-secondary-alt) !important;}
+.theme-dark .autocomplete-1vrmpx { background-color: var(--background-secondary-alt) !important;}
 .selected-1Tbx07 { background: var(--background-secondary) !important;}
+
 
 /* Message d'upload */
 .uploadModal-2ifh8j { background: var(--background-primary) !important;}
@@ -143,6 +153,8 @@
 }
 
 /* Selecteur d'emotes */
+
+/*I wanted to use duotone filter here, but for unknown reason it doesn't work, if someone will work on it please make it work just because*/
 .sprite-2iCowe { filter: var(--colored-emoji) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
 
@@ -168,7 +180,7 @@
 .headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: var(--playactbg) !important; box-shadow: var(--playactshadow);}
 .headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: var(--spotifyactbg) !important; box-shadow: var(--spotifyactshadow);}
 .headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: var(--streamactbg) !important; box-shadow: var(--streamactshadow);}
-.headerXbox-3G-4PF  > .activityUserPopout-2yItg2 { background: var(--xboxactbg) !important; box-shadow: var(--streamactshadow);}
+.headerXbox-3G-4PF  > .activityUserPopout-2yItg2 { background: var(--xboxactbg) !important; box-shadow: var(--xboxactshadow);}
 
 .body-3iLsc4, .footer-1fjuF6 { background: var(--background-secondary) !important; }
 
@@ -419,3 +431,18 @@
 }
 
 .tabBarContainer-1s1u-z { border-top: none; }
+
+/*EMOJI PICKER*/
+
+/*SOMEONE PLEASE STOP ME*/
+ .unread-2lAfLh,
+.iconBadge-qZ4Ksk,
+.numberBadge-2s8kKX,
+.iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP,
+.icon-3BcwQu.iconServer-3Z_nSE,
+.strikethrough-1n4ekb,
+.attachButtonPlay-3iJ0mf,
+.strikethrough-3Wiitd,
+.item-2hkk8m {
+   background-color: var(--user-buttons-color) !important;
+}

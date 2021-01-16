@@ -1,9 +1,9 @@
-	//Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
-
+    //Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
+    
 @use "custom.scss";
 @use "main.css";
 @import "https://discord-custom-covers.github.io/usrbg/dist/usrbg.css";
-
+    
 .theme-dark {
     --background-tertiary: #3e2334;
     --background-secondary: #3e2334;
@@ -27,6 +27,7 @@
     --user-buttons-color: #ff12ac;
     --chat-buttons: #ff12ac;
     --text-link: #ff12ac;
+    
 }
 
 .theme-light {
@@ -36,13 +37,13 @@
     --background-primary: #eedde8;
     --background-modifier-accent: none;
     --background-floating: #eedde8;
-
+    
     //color of ctrl+k
     --deprecated-quickswitcher-input-background: #fff;
-
+    
     //color of scrollbar
     --scrollbar-auto-thumb: #fff;
-
+    
     --elevation-low: none; 
     --header-primary: #000;
     --header-secondary: #1f1d1e;
@@ -54,24 +55,42 @@
     --chat-buttons: #ff12ac;
     --channeltextarea-background: #fff;
     --text-link: #ff12ac;
-
-    //I MUST CHANGE IT
-    //--abonnements-color: #ff0000;
+    
 }
 
 :root{
-
+    
+    --server-names-and-etc: none;
+    
+    --flex-black:#000;
+    --flex-white:#fff;
+    --shadowjjfw: #c8bdc8;
+    --shadowjjwf: #d1c6d3;
+    
+    --dark-shadowjjfw: #5e2b4b;
+    --dark-shadowjjwf: #4f2740;
+    
+    //color of some elements, which I can't change with #color, you need to change them manually, I recommend to use photoshop color picker and ctrl+U to find a match colors for your color scheme
+    
     --emoji-hue: 270deg;
     --emoji-saturation: 1.5;
-
+    
+    --locker-hue: 187deg;
+    --locker-saturation: 2.5;
+    --locker-brightness: 1;
+    
+    --icon-hue: 195deg;
+    --icon-saturation: 4;
+    --icon-brightness: 1.11;
+    
     //playing activity, shadow px parameters is for shadow offset from left to right, offset from up to down  and blur, same thing with all other shadow parameters
     --playactbg: #e354b1;
     --playactshadow: 0px 4px 0px #9b467d;
-
+    
     //spotify activity
     --spotifyactbg: #cc3b92;
     --spotifyactshadow: 0px 4px 0px #92115e;
-
+    
     //streaming activity
     --streamactbg: #723dcc;
     --streamactshadow: 0px 4px 0px #50367d;
@@ -84,10 +103,9 @@
     --scrollbar-thin-thumb: #none;
     --background-modifier-accent: none;
     --elevation-low: none;
-
-
+    
 }
-
+    
     //Happy new year @everyone!
-
+    
     //oh I forgot to mention that it still need improvements cuz idk css and I'm coding so dirty that I forgot to put brackets sometimes, so if you have any ideas how to improve please contact me (Да#4103), goodbye!

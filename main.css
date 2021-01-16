@@ -1,39 +1,142 @@
+/*powercord stuff*/
+.powercord-account {top:5px !Important; margin-bottom:25px !important;}
+.icon{filter:hue-rotate(var(--icon-hue)) saturate(var(--icon-saturation)) brightness(var(--icon-brightness))}
+/*pi̪̩̝͔̻͍v̶͚͖͉͕o̡*/
+/*.powercord.maximized{animation: filter-animation 5s infinite}
+@keyframes filter-animation {
+  0% {
+    filter: saturate(1) hue-rotate(0deg) blur(0px) contrast(1);
+  }
+
+  25% {
+    filter: saturate(100000000000000000000000) hue-rotate(90deg) blur(1px) contrast(1.5);
+  }
+
+ 50% {
+    filter: saturate(100000000000000) hue-rotate(180deg) blur(0px) contrast(2);
+  }
+
+  75% {
+    filter: saturate(100000000000000000000000000000000000000000000000000000) hue-rotate(270deg) blur(3px) contrast(1.5);
+  }
+
+  100% {
+    filter: saturate(1) hue-rotate(360deg) blur(0px) contrast(1);
+  }
+}
 /*tooltip color*/
 .tooltip-3oByQd,
 .tooltip-1_vJJI,
 .tooltipBlack-PPG47z,
 .tooltipGrey-1hnvTt {background-color: var(--background-floating) !important; color: var(--header-primary) !important;}
 
+/*drop menu button colors*/
+.colorBrand-ROmMP1{color:var(--chat-buttons)!important}
+
+/*settings buttons text and color*/
+.item-PXvHYJ{color:var(--chat-buttons) !important}
+.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{color:var(--flex-white) !important}
+.item-PXvHYJ.themed-OHr7kt{color: var(--header-secondary) !important}
+.header-1TOWci{background:var(--background-floating) !important}
+.lookFilled-1Gx00P.colorBrand-3pXr91{background-color: var(--chat-buttons) !important}
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA{color: var(--chat-buttons) !important}
+.container-3auIfb,
+.lockIcon-2Hj8Tq{filter:hue-rotate(var(--locker-hue)) saturate(var(--locker-saturation)) brightness(var(--locker-brightness)) !important}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {color: var(--chat-buttons) !important; border-color: var(--chat-buttons) !important}
+.barFill-23-gu-{background:var(--chat-buttons) !important}
+.container-3PXSwK{background:var(--chat-buttons) !important}
+.notches-1sAcEM.gray-3_LNYR{display:none !Important}
+.progress-1IcQ3A {background-color:var(--background-floating) !important}
+.radioIconForeground-XwlXQN{color:var(--chat-buttons) !important}
+.bar-2Qqk5Z{background:var(--flex-white) !important}
+.userSettingsVoice-iwdUC,
+.previewOverlay-2O7_KC{background-color:var(--background-floating) !important; border-color:var(--background-floating) !Important; border-radius: 0px !important}
+.formNotice-2_hHWR.marginBottom20-32qID7.cardPrimary-1Hv-to.card-3Qj_Yx{background: var(--background-floating) !important}
+.checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp.checked-3_4uQ9{border-color: var(--chat-buttons) !important; background-color: var(--chat-buttons) !important}
+.cardPrimary-1Hv-to{background:var(--background-floating) !Important}
+.theme-light .flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.activeGame-14JI7o.notDetected-33MY4s{background-color: var(--shadowjjfw) !Important}
+.theme-dark .flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.activeGame-14JI7o.notDetected-33MY4s{background-color: var(--dark-shadowjjfw) !Important}
+.lastPlayed-3bQ7Bo{display:none !important}
+.overlayStatusText-L2IACa,
+.nowPlayingAdd-1Kdmh_ {color:var(--header-primary) !important}
+.wrapper-3jrx9n{border: 0px !Important}
+.selected-mKYnfr.option-n0icdO{background-color: var(--chat-buttons) !Important; border-color: var(--chat-buttons) !important}
+.improved-1NJK-y{color:var(--chat-buttons)!important}
+.content-s2SEQO a{color:var(--chat-buttons)!important}
+.progress-YsDrV-{color:var(--chat-buttons)!important}
+.foreground-26ym5y {fill:#ff87d5!Important}
+.lookInverted-2D7oAl.colorBrand-3pXr91{color:var(--chat-buttons)!important}
+
+.layer-v9HyYc.disabledPointerEvents-1ptgTB{display:var(--server-names-and-etc) !important}
+.item-PXvHYJ.themed-OHr7kt{}
+
+/*removes protips, notes*/
+.userInfoSectionHeader-CBvMDh,
+.note-QfFU8y,
+.description-1EvxpH,
+.protip-1b9XPC.inline-136HKr,
+.colorHeaderSecondary-3Sp3Ft.size12-3cLvbJ{display:none !Important}
+
+.connectedAccounts-repVzS{margin-top: -61px!important}
+.top-28JiJ- .item-PXvHYJ{border-bottom: 0px solid transparent}
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {border-bottom-color:var(--background-floating)!important}
+.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{color:#ff87d5!Important}
+.tabBarItem-1b8RUP.item-PXvHYJ{border-color:var(--background-floating)!important}
+
+/*green buttons, I think...*/
+.item-3HknzM.item-PXvHYJ{background-color:var(--background-floating)!important}
+.lookFilled-1Gx00P.colorGreen-29iAKY{background-color:var(--chat-buttons)!important}
+
+/*bot tag*/
+.botTagRegular-2HEhHi{background: var(--chat-buttons)!Important}
+
+/*GIF and Emoji menu colors*/
+.QNNs.noWrap-3jynv6{background:var(--background-floating) !important}
+.searchBar--fTZYa,.searchBar-5di9mG{background:var(--flex-white) !important}
+.content-ySCtCx{background:var(--background-floating) !important}
+
+.colorDefault-2K3EoJ.focused-3afm-j{background-color: var(--shadowjjfw) !important}
+
+.pro-1T8RK7.base-1x0h_U.size12-3cLvbJ{color:var(--chat-buttons) !important}
+
+.jumpToPresentBar-G1R9s6,
+.newMessagesBar-265mhP{background-color: var(--shadowjjfw) !important}
+
+/*update button color*/
+.updateIconForeground-3tnNZn {fill: var(--chat-buttons) !important}
+
 /*I forgot what is this*/
-.childWrapper-anI2G9{color: var(--settings-buttons-text) !important;}
+.childWrapper-anI2G9{color: var(--settings-buttons-text) !important}
 
 /*game Icon on sidebar*/
-.gameIconWrapper-1YByCI {position: fixed; bottom: 150px; left: 20px;}
+.gameIconWrapper-1YByCI {position: fixed; bottom: 150px; left: 20px}
 
 /*it removes Video/Screen buttons, game info, game "actions" button, set to "flex" to enable*/
 .actions-aUdUfC,
 .info-WdNIDE,
-.actionButtons-14eAc_{display: none !important;}
+.actionButtons-14eAc_{display: none !important}
 
 /*it gives "Voice Connected" color*/
-.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {color: var(--chat-buttons) !important;}
-.rtcConnectionStatusConnected-VRZDjy {color: var(--chat-buttons) !important;}
+.rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {color: var(--chat-buttons) !important}
+.rtcConnectionStatusConnected-VRZDjy {color: var(--chat-buttons) !important}
 
 /*voice active border color*/
-.border-Jn5IOt.speaking-B2MXPi {box-shadow: inset 0 0 0 1px var(--chat-buttons),inset 0 0 0 4px var(--background-floating) !important;}
+.border-Jn5IOt.speaking-B2MXPi {box-shadow: inset 0 0 0 1px var(--chat-buttons),inset 0 0 0 4px var(--background-floating) !important}
 
+/*buttons color*/
+.colorable-1bkp8v.red-33-Lnk {background: var(--chat-buttons) !important}
 
 /*I forgot what is this*/
-.text-2sI5Sd {color: var(--header-primary) !important;}
+.text-2sI5Sd {color: var(--header-primary) !important}
 
 /*add a server&explore public servers color*/
-.circleIconButton-jET_ig { color: var(--user-buttons-color) !important; background-color: var(--background-tertiary) !important;}
+.circleIconButton-jET_ig { color: var(--user-buttons-color) !important; background-color: var(--background-tertiary) !important}
 
 /*DM button color*/
-.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--background-tertiary) !important; color: var(--settings-buttons-text) !important;}
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 { background-color: var(--background-tertiary) !important; color: var(--settings-buttons-text) !important}
 
 /*call background*/
-.video-1FfuMD.minimum-1pRSEN {background-color: var(--background-floating) !important;}
+.video-1FfuMD.minimum-1pRSEN {background-color: var(--background-floating) !important}
 
 /* --- 😀 PARTIE MP --- */
 
@@ -98,10 +201,10 @@
 .newMessagesBar-265mhP { background-color: var(--header-secondary); border-radius: 50px; margin-top: 5px; }
 
 /* Barre de tchat */
-.channelTextArea-rNsIhG { width: auto; margin: 11px 0 24px 55px;}
+.channelTextArea-rNsIhG { width: auto; margin: 11px 0px 25px 50px;}
 
 /* Barre de news */
-.wrapper-39oAo3 { width: auto; margin: 11px 0 24px 55px;}
+.wrapper-39oAo3 { width: auto; margin: 11px 0 25px 50px;}
 
 /* Bouton 'Suivre' */
 .children-19S4PO > .followButton-L6L-Us { background: var(--background-secondary-alt) !important; }
@@ -155,13 +258,13 @@
 /* Selecteur d'emotes */
 
 /*I wanted to use duotone filter here, but for unknown reason it doesn't work, if someone will work on it please make it work just because*/
-.sprite-2iCowe { filter: var(--colored-emoji) !important;}
-.emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
+.sprite-2iCowe {filter: hue-rotate(var(--emoji-hue)) saturate(var(--emoji-saturation)) !important}
+.emojiItemSelected-1aLkfV { background: var(--background-tertiary)!important}
 
 /* i'm blue dabedi dabeda */
-.attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
-.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
-.colorGrey-2DXtkV { background: var(--chat-buttons) !important; }
+.attachButtonPlus-jWVFah { fill: var(--chat-buttons)!important}
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons)!important}
+.colorGrey-2DXtkV{background:var(--chat-buttons)!important}
 
 /* Barre de recherche */
 .container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
@@ -230,8 +333,8 @@
 
 /* Réseaux sociaux */
 .connectedAccount-36nQx7 {
-    border: block;
-    border-color: #ff12ac;
+    border: none;
+    border-color: #ff87d5;
     border-width: 0px 0px 0px 4px;
     border-radius: 3px;
     padding: 0px 0px 0px 0px;
@@ -410,11 +513,12 @@
     width:var(--usrbg-modal-width);
     height: var(--usrbg-modal-height);
     opacity:1;
-    pointer-events:none;
-    background: var(--user-background) center/cover no-repeat;
-    -webkit-mask: linear-gradient(black, transparent 90%);
-    mask: linear-gradient(#000, transparent);
+    pointer-events:none
+    /*background: var(--user-background) center/cover no-repeat;*/
+    /*-webkit-mask: linear-gradient(black, transparent 90%);*/
+    /*mask: linear-gradient(#000, transparent);*/
   }
+    .headerFill-adLl4x{background-color: rgba(0,0,0,0)!important}
 
   /*linear-gradient(black, transparent 90%)*/
   /*linear-gradient(#000, transparent)*/
@@ -432,17 +536,18 @@
 
 .tabBarContainer-1s1u-z { border-top: none; }
 
-/*EMOJI PICKER*/
+/*unread messages and focused channel*/
+.theme-dark .unread-2lAfLh,
+.theme-dark .item-2hkk8m{background-color:var(--flex-white) !Important;}
 
-/*SOMEONE PLEASE STOP ME*/
- .unread-2lAfLh,
+.theme-light .unread-2lAfLh{background-color:var(--flex-black) !Important;}
+.theme-light .item-2hkk8m{background-color:var(--flex-black) !Important;}
+
+/*color of some buttons and elements*/
 .iconBadge-qZ4Ksk,
 .numberBadge-2s8kKX,
 .iconBadge-2wi9r4.iconBadge-2NuvG9.base-PmTxvP,
 .icon-3BcwQu.iconServer-3Z_nSE,
 .strikethrough-1n4ekb,
 .attachButtonPlay-3iJ0mf,
-.strikethrough-3Wiitd,
-.item-2hkk8m {
-   background-color: var(--user-buttons-color) !important;
-}
+.strikethrough-3Wiitd {background-color: var(--chat-buttons) !important;}

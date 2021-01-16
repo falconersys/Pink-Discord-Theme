@@ -4,13 +4,9 @@
 
     // BetterAvatar Popout
 
-    --popout-status-icon: block; // Set it to "block" if u want to have the status icon in big popouts
+    --popout-status-icon: none; // Set it to "block" if u want to have the status icon in big popouts
     --popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts
     --avatar-radius: 50%; // Change the roundness of avatar in big popouts, u need to disable the mask to use this
-
-    // Colored emoji picker
-    --colored-emoji: hue-rotate(var(--emoji-hue)) saturate(var(--emoji-saturation))
-; // Change the value to "100%" if u want the basic one
 
     // BetterSpotify --> Delete all until "Others settings" if u don't want it
     .powercord-spotify .spotify-seek-bar-progress { background-color: var(--spotify-color) !important;}

@@ -3,27 +3,7 @@
 .icon{filter:hue-rotate(var(--icon-hue)) saturate(var(--icon-saturation)) brightness(var(--icon-brightness))}
 /*pi̪̩̝͔̻͍v̶͚͖͉͕o̡*/
 /*.powercord.maximized{animation: filter-animation 5s infinite}
-@keyframes filter-animation {
-  0% {
-    filter: saturate(1) hue-rotate(0deg) blur(0px) contrast(1);
-  }
-
-  25% {
-    filter: saturate(100000000000000000000000) hue-rotate(90deg) blur(1px) contrast(1.5);
-  }
-
- 50% {
-    filter: saturate(100000000000000) hue-rotate(180deg) blur(0px) contrast(2);
-  }
-
-  75% {
-    filter: saturate(100000000000000000000000000000000000000000000000000000) hue-rotate(270deg) blur(3px) contrast(1.5);
-  }
-
-  100% {
-    filter: saturate(1) hue-rotate(360deg) blur(0px) contrast(1);
-  }
-}
+@keyframes filter-animation {0%{filter: saturate(1) hue-rotate(0deg) blur(0px) contrast(1);}25%{filter: saturate(100000000000000000000000) hue-rotate(90deg) blur(1px) contrast(1.5);}50%{filter: saturate(100000000000000) hue-rotate(180deg) blur(0px) contrast(2);}75%{filter: saturate(100000000000000000000000000000000000000000000000000000) hue-rotate(270deg) blur(1px) contrast(4);}100%{filter: saturate(1) hue-rotate(360deg) blur(0px) contrast(1);}}
 /*tooltip color*/
 .tooltip-3oByQd,
 .tooltip-1_vJJI,
@@ -32,6 +12,48 @@
 
 /*drop menu button colors*/
 .colorBrand-ROmMP1{color:var(--chat-buttons)!important}
+
+/*removes MATCHING menu, it will remove powercord commands match. menu and emoji match. menu, so if you don't need both of them change parameter from block to none*/
+.autocomplete-1vrmpx.autocomplete-3l_oCd{display:block}
+
+/*Small Popout*/
+.headerTag-2pZJzA,
+.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881{color:var(--header-primary)!important}
+.customStatus-1bh2V9{color:var(--header-primary)!important;font-size:16px!important}
+.bodyTitle-Y0qMQz{display:none!important}
+/*Big Popout*/
+.customStatusText-39gdCI,
+.activityHeader-1PExlk,
+.username-3gJmXY,
+.discriminator-xUhQkU{color:var(--header-primary)!important}
+
+/*removes "pretty much" discord nitro*/
+[href="/store"],
+.buttons-3JBrkn > .button-38aScr,
+.wrapper-3nSjSv,
+.giftAction-yhDLaW,
+.premiumPromo-fVlLu-, 
+.guildIconContainer-2FW_iA, 
+.premiumIcon-1rDbWQ,
+#guild-header-popout-premium-subscribe,
+#guild-header-popout .separator-2I32lJ,
+.emojiSection-3Fb9ix .shinyButton-3uFlM-,
+.uploadDropModal-2kTwbc .premiumPromo-3oM7cT,
+[aria-controls="Discord Nitro-tab"], 
+[aria-controls="Nitro Server Boost-tab"],
+[aria-controls="Library Inventory-tab"],
+#user-settings-cog-Discord_Nitro,
+#user-settings-cog-Nitro_Server_Boost,
+#user-settings-cog-Library_Inventory,
+[aria-controls="Connections-tab"] + .separator-gCa7yv,
+[aria-controls="Connections-tab"] + .separator-gCa7yv + .header-2RyJ0Y {
+    display: none !important;
+}
+#guild-header-popout .separator-2I32lJ ~ .separator-2I32lJ {
+    display: block !important;
+}
+
+
 
 /*settings buttons text and color*/
 .item-PXvHYJ{color:var(--chat-buttons) !important}

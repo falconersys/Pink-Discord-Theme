@@ -1,4 +1,4 @@
-![CTP](https://i.imgur.com/A2I8aN6.png)
+![CTP](https://i.imgur.com/em9y85I.png)
 
 # Hey-hey!
 [Original theme](https://github.com/NYRI4/Comfy-theme)

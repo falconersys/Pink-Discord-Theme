@@ -1,4 +1,4 @@
-    //Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863). I will add better discord version later
+    //Hey-hey! You can find avatar popout, emoji color and spotify settings in "custom.scss" file (you can find spotify color and other color settings below). If you need help you can contact me (Да#4103) or author of original theme (Nyria#3863).
     
 @use "custom.scss";
 @use "main.css";
@@ -9,36 +9,36 @@
     --background-secondary: #3e2334;
     --background-secondary-alt: #3e2334;
     --background-primary: #3e2334;
-    --background-modifier-hover: #301c29;
-    --background-modifier-active: #2e1a27;
-    --background-modifier-selected: #2e1927;
-    --background-accent: #d36fb0;
+    --background-modifier-hover:rgba(0,0,0,.18);
+    --background-modifier-active:rgba(0,0,0,.23);
+    --background-modifier-selected:rgba(0,0,0,.27);
+    --background-accent: #ff12ac;
+    --background-floating: #3e2334;
     --deprecated-quickswitcher-input-background: #1f0f19;
     --header-primary: #fff;
     --header-secondary: #eee;
     --text-normal: #e9e9e9;
+    --text-muted: #808080;
     --settings-buttons-text: #fff;
     --channeltextarea-background: #2e1927;
     --deprecated-card-bg: #20131c;
-    --background-floating: #3e2334;
     --scrollbar-auto-thumb: #21121c;
     --user-background: #3e2334;
-    --spotify-color: #ff12ac;
-    --user-buttons-color: #ff12ac;
-    --chat-buttons: #ff12ac;
-    --text-link: #ff12ac;
-    --shadowjjfw: #5e2b4b;
-    --shadowjjwf: #4f2740;
+    --settings-bg:rgba(21,21,21,.4);
+    --settings-x-button:#dcddde;
     
 }
-
+    
 .theme-light {
     --background-tertiary: #eedde8;
     --background-secondary: #eedde8;
     --background-secondary-alt: #eedde8;
     --background-primary: #eedde8;
-    --background-modifier-accent: none;
+    --background-modifier-hover:rgba(0,0,0,.05);
+    --background-modifier-active:rgba(0,0,0,.1);
+    --background-modifier-selected:rgba(0,0,0,.07);
     --background-floating: #eedde8;
+    --background-accent: #ff12ac;
     
     //color of ctrl+k
     --deprecated-quickswitcher-input-background: #fff;
@@ -46,25 +46,30 @@
     //color of scrollbar
     --scrollbar-auto-thumb: #fff;
     
-    --elevation-low: none; 
     --header-primary: #000;
     --header-secondary: #1f1d1e;
     --text-normal: #2e2b2b;
+    --text-muted:#808080;
     --settings-buttons-text: #fff;
     --user-background: #eedde8;
-    --spotify-color: #ff12ac;
-    --user-buttons-color: #ff12ac;
-    --chat-buttons: #ff12ac;
     --channeltextarea-background: #fff;
-    --text-link: #ff12ac;
-    --shadowjjfw: #c8bdc8;
-    --shadowjjwf: #d1c6d3;    
-    
+    --settings-bg:rgba(235,18,255,.03);
+    --settings-x-button: #72767d;
 }
 
 :root{
     
+    --shadow-color-brighter:rgba(0,0,0,.05);
+    --shadow-color-bright:rgba(0,0,0,.1);
+    --shadow-color-dark:rgba(0,0,0,.15);
+    --transparent-accent:rgba(255,18,172,.08);
+    --text-link: #ff12ac;
+    --spotify-color: #ff12ac;
+    --user-buttons-color: #ff12ac;
+    --chat-buttons: #ff12ac;
     --server-names-and-etc: none;
+    
+    --elevation-low: none;
     
     --flex-black:#000;
     --flex-white:#fff;

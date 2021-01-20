@@ -1,4 +1,4 @@
-![CTP](https://i.imgur.com/9Xp1BDp.png)
+![CTP](https://i.imgur.com/em9y85I.png)
 
 # Hey-hey!
 [Original theme](https://github.com/NYRI4/Comfy-theme)
@@ -7,8 +7,8 @@ CTP is fully customizable color scheme, if you want to help me and improve this 
 
 ## Screenshots:
 
-![dt](https://i.imgur.com/tmibDOi.png)
-![lt](https://i.imgur.com/uH3cpmL.png)
+![dt](https://i.imgur.com/N3hcYnl.png)
+![lt](https://i.imgur.com/ecjPsjr.png)
 
 ## Installation (only powercord)
 Open command prompt or whatever, and copy&paste the following command:

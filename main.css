@@ -41,6 +41,7 @@
 /*@name and other icons color*/
 .base-1x0h_U{color:var(--header-secondary)!important}
 .icon-22AiRD{color:var(--header-secondary)!important}
+.colorBrand-2tjs5J{color:var(--chat-buttons)!important}
 
 /*эта шлюха не хочет меня*/
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {background-color:var(--settings-bg)!important}
@@ -119,10 +120,8 @@
 .item-3HknzM.item-PXvHYJ{background-color:var(--background-floating)!important}
 .lookFilled-1Gx00P.colorGreen-29iAKY{background-color:var(--chat-buttons)!important}
 
-/*message replying*/
-.replying-1x3H0T{background-color:var(--transparent-accent)!important}
-.mention.wrapper-3WhCwL.mention.interactive{background:var(--transparent-accent)!important;color:var(--chat-buttons)!important}
-.mentioned-xhSam7{background-color:var(--transparent-accent)!important}
+/*mention*/
+.mention.wrapper-3WhCwL.mention.interactive{color:var(--chat-buttons)!important}
 
 /*bot tag*/
 .botTagRegular-2HEhHi{background: var(--chat-buttons)!Important}

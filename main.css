@@ -112,6 +112,7 @@
 .checkmark-3rush5{background-color:var(--chat-buttons)!important}
 .container-3RCQyg{border-bottom:0px!important}
 .closeButton-1tv5uR:hover{background-color:var(--shadow-color-brighter)!important}
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS{color:var(--chat-buttons)}
 
 /*removes protips, notes*/
 .userInfoSectionHeader-CBvMDh,.note-QfFU8y,.description-1EvxpH,.protip-1b9XPC.inline-136HKr,.colorHeaderSecondary-3Sp3Ft.size12-3cLvbJ{display:none!Important}
@@ -120,8 +121,12 @@
 .item-3HknzM.item-PXvHYJ{background-color:var(--background-floating)!important}
 .lookFilled-1Gx00P.colorGreen-29iAKY{background-color:var(--chat-buttons)!important}
 
-/*mention*/
+/*mention and transparent accents such as reaction and reply, and also their text colors*/
 .mention.wrapper-3WhCwL.mention.interactive{color:var(--chat-buttons)!important}
+.reaction-1hd86g.reactionMe-wv5HKu{background-color:var(--transparent-accent-darker)}
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV{color:var(--chat-buttons)}
+.replying-1x3H0T{background-color:var(--transparent-accent-brighter)}
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z, .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z, .mouse-mode.full-motion .ephemeral-1PsL1r:hover, .mouse-mode.full-motion .replying-1x3H0T:hover{background-color:var(--transparent-accent)}
 
 /*bot tag*/
 .botTagRegular-2HEhHi{background: var(--chat-buttons)!Important}
@@ -240,6 +245,7 @@
 
 /* Barre de tchat */
 .channelTextArea-rNsIhG { width: auto; margin: 11px 0px 25px 50px;}
+.container-2fRDfG{background:var(--channeltextarea-background)}
 
 /* Barre de news */
 .wrapper-39oAo3 { width: auto; margin: 11px 0 25px 50px;}

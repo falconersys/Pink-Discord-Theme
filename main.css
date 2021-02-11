@@ -1,7 +1,7 @@
 /*powercord stuff*/
 .powercord-account {top:5px !Important; margin-bottom:25px !important;}
 .powercord-toast[data-toast-type=success] .icon{color:var(--chat-buttons)!important}
-.powercord-toast[data-toast-type=info] .icon{color:#12ff6d!important}
+.powercord-toast[data-toast-type=info] .icon{color:var(--chat-buttons)!important}
 .powercord-toast .header{background-color:var(--background-primary)!important}
 .powercord-toast{background-color:var(--background-primary)!important; border:0px!important}
 .powercord-toast .contents .inner{border:1px solid var(--chat-buttons)!important; background-color:var(--background-primary)!important; font-size:16px!important; margin:0 0 4px!important;padding:15px 9px!important}
@@ -11,7 +11,7 @@
 .lookGhost-2Fn_0-.colorBrand-3pXr91{color:var(--chat-buttons)!important;background-color:var(--transparent-accent)!important}
 .divider-3573oO.dividerDefault-3rvLe-{display:none!important}
 .powercord-product-details .metadata .version span + div{color:var(--chat-buttons)!important;margin-left:10px!important}
-[d="M20.997,9.497v-5.29c0-0.45-0.54-0.67-0.85-0.35l-1.78,1.78c-1.81-1.81-4.39-2.85-7.21-2.6c-4.19,0.38-7.64,3.75-8.1,7.94 c-0.6,5.42,3.63,10.02,8.94,10.02c4.59,0,8.38-3.44,8.93-7.88c0.07-0.6-0.4-1.12-1-1.12c-0.5,0-0.92,0.37-0.98,0.86 c-0.43,3.49-3.44,6.19-7.05,6.14c-3.71-0.05-6.84-3.18-6.9-6.9c-0.06-3.9,3.11-7.1,7-7.1c1.93,0,3.68,0.79,4.95,2.05l-2.09,2.09c-0.32,0.32-0.1,0.86,0.35,0.86h5.29C20.777,9.997,20.997,9.777,20.997,9.497z"],[d="M10.997,8.747v3.68c0,0.35,0.19,0.68,0.49,0.86l3.12,1.85c0.36,0.21,0.82,0.09,1.03-0.26c0.21-0.36,0.1-0.82-0.26-1.03 l-2.87-1.71v-3.4c-0.01-0.4-0.35-0.74-0.76-0.74S10.997,8.337,10.997,8.747z"]{fill:var(--chat-buttons)!important}
+[fill="#43b581"][d="M11.19 1.36l-7 3.11C3.47 4.79 3 5.51 3 6.3V11c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6.3c0-.79-.47-1.51-1.19-1.83l-7-3.11c-.51-.23-1.11-.23-1.62 0zm-1.9 14.93L6.7 13.7c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0L10 14.17l5.88-5.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-6.59 6.59c-.38.39-1.02.39-1.41 0z"],[d="M20.997,9.497v-5.29c0-0.45-0.54-0.67-0.85-0.35l-1.78,1.78c-1.81-1.81-4.39-2.85-7.21-2.6c-4.19,0.38-7.64,3.75-8.1,7.94 c-0.6,5.42,3.63,10.02,8.94,10.02c4.59,0,8.38-3.44,8.93-7.88c0.07-0.6-0.4-1.12-1-1.12c-0.5,0-0.92,0.37-0.98,0.86 c-0.43,3.49-3.44,6.19-7.05,6.14c-3.71-0.05-6.84-3.18-6.9-6.9c-0.06-3.9,3.11-7.1,7-7.1c1.93,0,3.68,0.79,4.95,2.05l-2.09,2.09c-0.32,0.32-0.1,0.86,0.35,0.86h5.29C20.777,9.997,20.997,9.777,20.997,9.497z"],[d="M10.997,8.747v3.68c0,0.35,0.19,0.68,0.49,0.86l3.12,1.85c0.36,0.21,0.82,0.09,1.03-0.26c0.21-0.36,0.1-0.82-0.26-1.03 l-2.87-1.71v-3.4c-0.01-0.4-0.35-0.74-0.76-0.74S10.997,8.337,10.997,8.747z"]{fill:var(--chat-buttons)!important}
 /*pi̪̩̝͔̻͍v̶͚͖͉͕o̡*/
 /*.powercord.maximized{animation: filter-animation 5s infinite}
 @keyframes filter-animation {0%{filter: saturate(1) hue-rotate(0deg) blur(0px) contrast(1);}25%{filter: saturate(100000000000000000000000) hue-rotate(90deg) blur(1px) contrast(1.5);}50%{filter: saturate(100000000000000) hue-rotate(180deg) blur(0px) contrast(2);}75%{filter: saturate(100000000000000000000000000000000000000000000000000000) hue-rotate(270deg) blur(1px) contrast(4);}100%{filter: saturate(1) hue-rotate(360deg) blur(0px) contrast(1);}}
@@ -69,18 +69,21 @@
 .connectedAccounts-repVzS{margin-top: -61px!important}
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover{border-bottom-color:var(--shadow-color-bright)!important}
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{border-bottom-color:var(--chat-buttons)!important}
+.lookInverted-2D7oAl.colorGreen-29iAKY{color:var(--chat-buttons)!important}
 
 /*removes "pretty much" discord nitro stuff*/
 [href="/store"],.buttons-3JBrkn > .button-38aScr,.wrapper-3nSjSv,.giftAction-yhDLaW,.premiumPromo-fVlLu-, .guildIconContainer-2FW_iA, .premiumIcon-1rDbWQ,#guild-header-popout-premium-subscribe,#guild-header-popout .separator-2I32lJ,.emojiSection-3Fb9ix .shinyButton-3uFlM-,.uploadDropModal-2kTwbc .premiumPromo-3oM7cT,[aria-controls="Discord Nitro-tab"],[aria-controls="Nitro Server Boost-tab"],[aria-controls="Library Inventory-tab"],#user-settings-cog-Discord_Nitro,#user-settings-cog-Nitro_Server_Boost,#user-settings-cog-Library_Inventory,[aria-controls="Connections-tab"] + .separator-gCa7yv,[aria-controls="Connections-tab"] + .separator-gCa7yv + .header-2RyJ0Y{display:none!important;}#guild-header-popout .separator-2I32lJ ~ .separator-2I32lJ{display:block!important}
 
 /*settings buttons text and color*/
-.item-PXvHYJ{color:var(--chat-buttons) !important}
+.item-PXvHYJ:hover{color:var(--flex-white)!important;border-color:var(--flex-white)!important}
+.item-PXvHYJ:hover{background-color:var(--shadow-color-bright)!important}
 .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{color:var(--chat-buttons) !important}
-.item-PXvHYJ.themed-OHr7kt{color: var(--header-secondary) !important}
+.item-PXvHYJ.themed-OHr7kt{color:var(--header-secondary) !important}
 .header-1TOWci{background:var(--background-floating) !important}
 .lookFilled-1Gx00P.colorBrand-3pXr91{background-color: var(--chat-buttons) !important}
 .userSettingsSecurity-3IYeMF .isEnabled-24g9qA{color: var(--chat-buttons) !important}
 .container-3auIfb,.lockIcon-2Hj8Tq{filter:hue-rotate(var(--locker-hue)) saturate(var(--locker-saturation)) brightness(var(--locker-brightness)) !important}
+.container-3auIfb[tabindex="-1"][style="opacity: 1; background-color: rgb(114, 118, 125);"]{background-color:#707070!important}
 .defaultValue-3gC7yw .markValue-2DwdXI{color:var(--chat-buttons)!important}
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {color: var(--chat-buttons) !important; border-color: var(--chat-buttons) !important}
 .barFill-23-gu-{background:var(--chat-buttons) !important}
@@ -99,9 +102,7 @@
 .overlayStatusText-L2IACa,.nowPlayingAdd-1Kdmh_ {color:var(--header-primary) !important}
 .wrapper-3jrx9n{border: 0px !Important}
 .selected-mKYnfr.option-n0icdO{background-color: var(--chat-buttons) !Important; border-color: var(--chat-buttons) !important}
-.improved-1NJK-y{color:var(--chat-buttons)!important}
-.content-s2SEQO a{color:var(--chat-buttons)!important}
-.progress-YsDrV-{color:var(--chat-buttons)!important}
+.content-s2SEQO a,.progress-YsDrV-{color:var(--chat-buttons)!important}
 .foreground-26ym5y {fill:var(--chat-buttons)!Important}
 .lookInverted-2D7oAl.colorBrand-3pXr91{color:var(--chat-buttons)!important}
 .layer-v9HyYc.disabledPointerEvents-1ptgTB{display:var(--server-names-and-etc) !important}
@@ -113,6 +114,15 @@
 .container-3RCQyg{border-bottom:0px!important}
 .closeButton-1tv5uR:hover{background-color:var(--shadow-color-brighter)!important}
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS{color:var(--chat-buttons)}
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover{color:var(--flex-white)!important;border-color:var(--flex-white)!important}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover{color:var(--flex-dark)!important;background-color:var(--flex-white)!important}
+.colorDefault-2K3EoJ.focused-3afm-j{color:var(--flex-white)!important}
+.theme-light .editIcon-13gaox{filter:brightness(3)}
+.colorGrey-2DXtkV:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,.lookFilled-1Gx00P.colorYellow-2JqYwt:hover{color:var(--flex-dark)!important;background-color:var(--flex-white)!important}
+.keybindShortcut-1BD6Z1 span{box-shadow:none!important;border:none!important;padding:5px 6px 4px!important;height:22px!Important}
+[fill="#7289da"][fill-rule="evenodd"][d="m16 7.6c0 .79-1.28 1.38-1.52 2.09s.44 2 0 2.59-1.84.35-2.46.8-.79 1.84-1.54 2.09-1.67-.8-2.47-.8-1.75 1-2.47.8-.92-1.64-1.54-2.09-2-.18-2.46-.8.23-1.84 0-2.59-1.54-1.3-1.54-2.09 1.28-1.38 1.52-2.09-.44-2 0-2.59 1.85-.35 2.48-.8.78-1.84 1.53-2.12 1.67.83 2.47.83 1.75-1 2.47-.8.91 1.64 1.53 2.09 2 .18 2.46.8-.23 1.84 0 2.59 1.54 1.3 1.54 2.09z"]{fill:var(--chat-buttons)!important}
+.option-n0icdO{background-color:var(--transparent-accent-darker)!important}
 
 /*removes protips, notes*/
 .userInfoSectionHeader-CBvMDh,.note-QfFU8y,.description-1EvxpH,.protip-1b9XPC.inline-136HKr,.colorHeaderSecondary-3Sp3Ft.size12-3cLvbJ{display:none!Important}
@@ -120,6 +130,16 @@
 /*green buttons, I think...*/
 .item-3HknzM.item-PXvHYJ{background-color:var(--background-floating)!important}
 .lookFilled-1Gx00P.colorGreen-29iAKY{background-color:var(--chat-buttons)!important}
+.colorable-1bkp8v.green-plH-Mj,
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS,
+.colorable-1bkp8v.green-plH-Mj:hover{background:var(--chat-buttons)!important}
+
+/*Colors on Discover tab*/
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{background-color:var(--chat-buttons)!important}
+.partnered-3nJayh{filter:hue-rotate(var(--blue-hue)) saturate(var(--blue-saturation))!important}
+.dotOnline-8Ag7EB{background-color:var(--chat-buttons)!important}
+.dotOffline-3DXoDy.dotOnline-8Ag7EB{background-color:var(--background-tertiary)!important}
+.verified-1eC5dy{color:var(--chat-buttons)}
 
 /*mention and transparent accents such as reaction and reply, and also their text colors*/
 .mention.wrapper-3WhCwL.mention.interactive{color:var(--chat-buttons)!important}
@@ -127,6 +147,8 @@
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV{color:var(--chat-buttons)}
 .replying-1x3H0T{background-color:var(--transparent-accent-brighter)}
 .message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z, .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z, .mouse-mode.full-motion .ephemeral-1PsL1r:hover, .mouse-mode.full-motion .replying-1x3H0T:hover{background-color:var(--transparent-accent)}
+.icon-2Po-VO.iconSize-2tmqqh{filter:hue-rotate(var(--green-hue)) saturate(var(--green-saturation))!important}
+.wrapper-3WhCwL{color:var(--chat-buttons)!important;background:var(--transparent-accent-brighter)!important}
 
 /*bot tag*/
 .botTagRegular-2HEhHi{background: var(--chat-buttons)!Important}

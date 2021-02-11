@@ -26,6 +26,7 @@
     --user-background: #3e2334;
     --settings-bg:rgba(21,21,21,.4);
     --settings-x-button:#dcddde;
+    --text-themed:#000;
     
 }
     
@@ -55,6 +56,7 @@
     --channeltextarea-background: #fff;
     --settings-bg:rgba(235,18,255,.03);
     --settings-x-button: #72767d;
+    --text-themed:#fff;
 }
 
 :root{
@@ -88,6 +90,12 @@
     --icon-hue: 195deg;
     --icon-saturation: 4;
     --icon-brightness: 1.11;
+    
+    --blue-hue: 100deg;
+    --blue-saturation: 3;
+    
+    --green-hue: 190deg;
+    --green-saturation: 3;
     
     //playing activity, shadow px parameters is for shadow offset from left to right, offset from up to down  and blur, same thing with all other shadow parameters
     --playactbg: #e354b1;

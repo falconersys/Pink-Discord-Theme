@@ -31,15 +31,15 @@
 }
     
 .theme-light {
-    --background-tertiary: #eedde8;
-    --background-secondary: #eedde8;
-    --background-secondary-alt: #eedde8;
-    --background-primary: #eedde8;
+    --background-tertiary: #FCE0ED;
+    --background-secondary: #FCE0ED;
+    --background-secondary-alt: #FCE0ED;
+    --background-primary: #f7f7f7;
     --background-modifier-hover:rgba(0,0,0,.05);
     --background-modifier-active:rgba(0,0,0,.1);
     --background-modifier-selected:rgba(0,0,0,.07);
-    --background-floating: #eedde8;
-    --background-accent: #ff12ac;
+    --background-floating: #f7f7f7;
+    --background-accent: #EDBED1;
     
     //color of ctrl+k
     --deprecated-quickswitcher-input-background: #fff;
@@ -49,10 +49,10 @@
     
     --header-primary: #000;
     --header-secondary: #1f1d1e;
-    --text-normal: #2e2b2b;
-    --text-muted:#808080;
+    --text-normal: #E99EAC;
+    --text-muted:#EDBED1;
     --settings-buttons-text: #fff;
-    --user-background: #eedde8;
+    --user-background: #FCE0ED;
     --channeltextarea-background: #fff;
     --settings-bg:rgba(235,18,255,.03);
     --settings-x-button: #72767d;
@@ -67,10 +67,10 @@
     --transparent-accent:rgba(255,18,172,.08);
     --transparent-accent-darker:rgba(255,18,172,.18);
     --transparent-accent-brighter:rgba(255,18,172,.04);
-    --text-link: #ff12ac;
-    --spotify-color: #ff12ac;
-    --user-buttons-color: #ff12ac;
-    --chat-buttons: #ff12ac;
+    --text-link: #EDBED1;
+    --spotify-color: #EDBED1;
+    --user-buttons-color: #EDBED1;
+    --chat-buttons: #EDBED1c;
     --server-names-and-etc: none;
     
     --elevation-low: none;
